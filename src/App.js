@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import ShowHide from './useState/show-hide/ShowHide';
+import Watcher from './useState/stopWatcher/Watcher';
+import TodoList from './useState/todo-list/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ShowHide></ShowHide> */}
+      {/* <Watcher></Watcher> */}
+
+      <TodoList></TodoList>
+
+
     </div>
   );
 }
